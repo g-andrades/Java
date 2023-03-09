@@ -1,0 +1,22 @@
+package br.com.aula01;
+import java.util.Scanner;
+public class soma {
+    public static void main(String[]args){
+        Scanner entrada = new Scanner(System.in);
+
+        System.out.print("Informe o primeiro número: ");
+        int numero1 = entrada.nextInt();
+
+        System.out.print("Informe o segundo número: ");
+        double numero2 = entrada.nextDouble();
+
+        double soma = numero1 + numero2;
+
+        System.out.printf("A soma de é %d\n", numero1);
+        System.out.printf("Com o número %f\n", numero2);
+        System.out.printf("A soma dos valores é %f\n", soma);
+
+
+    }
+
+}
